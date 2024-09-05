@@ -1,11 +1,14 @@
-import  NavBar  from "../components/navbar/NavBar"
+import Landing from "@components/landing/Landing";
+import NavBar from "@components/navbar/NavBar";
+import { Container } from "react-bootstrap";
 
 const Home = () => {
   return (
-    <div>
-      <NavBar/>
-      Home
-    </div>
+    <Container>
+        <NavBar/>
+        <Landing/>
+        Home
+    </Container>
   )
 }
 
